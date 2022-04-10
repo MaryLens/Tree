@@ -31,13 +31,13 @@ public class App {
 		third.appendChild(eighth);
 		third.appendChild(ninth);
 
-		// -------------|root(1)|------------
-		// | |
-		// | |
-		// -------|second(2)|---- -------|third(3)|---------
-		// | | | | | |
-		// | | | | | |
-		// |fourth(4)| |fifth(5)| |sixth(6)| |seventh(7)| |eighth(8)| |ninth(9)|
+		//                       -------------|root(1)|------------
+		//                       |                                |
+		//                       |                                |
+		//             -------|second(2)|----           -------|third(3)|---------
+		//            |          |          |           |            |           | 
+		//            |          |          |           |            |           | 
+		//      |fourth(4)| |fifth(5)| |sixth(6)|   |seventh(7)| |eighth(8)| |ninth(9)|
 
 		walkTheTree(root);
 		System.out.println();
